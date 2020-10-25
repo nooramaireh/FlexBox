@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+.header{
+    display: flex;
+    flex-direction: column;
+    width : 1200px;
+    margin:auto;
+}
+.logo{
+    max-width: 100px;
+}
+.bci-group-logo{
+    width: 100%;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: -webkit-flex; /* Safari */
+}
+.title{
+    font-size: 30px;
+}
+p{
+    font-family: 'Dosis', sans-serif;
+}
+.card-list{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.card-item{
+  background-color: #f5f5f5f5;
+  border: 1px solid #dededede;
+  width: 200px;
+  height:auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 15px 0 ;
+  margin:10px;
+}
+.card-item:hover {
+    background-color: #dededede;
+    cursor: pointer;
+}
